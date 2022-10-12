@@ -4,8 +4,9 @@
 
 ## Data: City of Philadelphia 311
 [City of Philadelphia CARTO API Explorer](https://cityofphiladelphia.github.io/carto-api-explorer/#public_cases_fc)
+```https://phl.carto.com/api/v2/sql?q=SELECT * FROM public_cases_fc```
 
-## Example: Use deck.gl with Mapbox
+## Use deck.gl with Mapbox
 
 Uses [Webpack](https://github.com/webpack/webpack) to bundle files and serves it
 with [webpack-dev-server](https://webpack.js.org/guides/development/#webpack-dev-server).
@@ -16,8 +17,6 @@ To install dependencies:
 
 ```bash
 npm install
-# or
-yarn
 ```
 
 Commands:
