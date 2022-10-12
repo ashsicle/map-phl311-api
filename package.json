@@ -1,0 +1,24 @@
+{
+  "name": "pure-js-mapbox",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --progress --hot --open",
+    "start-local": "webpack-dev-server --env.local --progress --hot --open",
+    "build": "webpack -p"
+  },
+  "dependencies": {
+    "@deck.gl/core": "^8.8.0",
+    "@deck.gl/layers": "^8.8.0",
+    "@deck.gl/mapbox": "^8.8.0",
+    "cartodb": "github:cartodb/cartodb-nodejs#master",
+    "deck.gl": "^8.8.12",
+    "mapbox-gl": "^1.13.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
